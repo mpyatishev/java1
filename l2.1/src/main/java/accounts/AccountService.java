@@ -20,7 +20,7 @@ public class AccountService {
 		return loginToProfile.get(login);
 	}
 
-	public UserProfile getUserBySession(String sessionId) {
+	public UserProfile getUserBySessionId(String sessionId) {
 		return sessionIdToProfile.get(sessionId);
 	}
 
